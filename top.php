@@ -17,7 +17,7 @@
 
         $dbUserName = get_current_user() . '_writer';
         $whichPass = "w";
-        $dbName = strtoupper(get_current_user()) . '_LEAGUE';
+        $dbName = strtoupper(get_current_user()) . '_lol';
 
         $thisDatabase = new Database($dbUserName, $whichPass, $dbName);
         ?>

@@ -54,7 +54,7 @@ print '</section>';
 //                        Champion #1 :: Item #1                       //
 //---------------------------------------------------------------------//
 
-$item = "Amplifying Tome";
+$item = "None";
 
 $query = 'SELECT fldItemName ';
 $query .= 'FROM tblItems ';
@@ -294,7 +294,7 @@ print '</section>';
 //                        Champion #2 :: Item #1                       //
 //---------------------------------------------------------------------//
 
-$item = "Amplifying Tome";
+$item = "None";
 
 $query = 'SELECT fldItemName ';
 $query .= 'FROM tblItems ';
