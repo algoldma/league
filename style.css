@@ -171,7 +171,12 @@ select {
     margin: 5%;
     margin-top: 1%;
 }
-
+#leftChamp{
+    float:left;
+}
+#rightChamp{
+    float:right;
+}
 /*//---------------------------------------------------------------------//
 //                           General Classes                           //
 //---------------------------------------------------------------------//*/
@@ -214,4 +219,9 @@ select {
     padding-top: 8px;
     color: #DCC064;
     border-radius: 2px;
+}
+.pure-button{
+    position:relative;
+    top: 90px;
+    right:45%;
 }
